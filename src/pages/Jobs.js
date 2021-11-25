@@ -7,15 +7,14 @@ import Job from '../components/Job';
 function Jobs() {
     return (
         <div>
-
-            <Grid container spacing={2} style={{padding:'30px'}}>
+            <Grid container spacing={0} style={{padding:'30px'}}>
                 <Grid item xs={6} style={{
                     textAlign:'center'
                 }}>
                     <img src={jobHero} alt="join us" />
                 </Grid>
-                <Grid item xs={6} style={{
-                   padding:'30px'
+                <Grid item xs={6}  style={{
+                    textAlign:'center'
                 }}>
                      <Job/>
                 </Grid>

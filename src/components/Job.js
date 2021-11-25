@@ -1,7 +1,7 @@
 import JobList from '../data/JobList.json';
 import JobIcon from '../img/job_icon_1.png';
 import BgHover from '../img/bg_hover.png';
-import {makeStyles, useTheme} from "@mui/styles";
+import {makeStyles} from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   
