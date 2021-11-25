@@ -1,7 +1,6 @@
 import JobList from '../data/JobList.json';
 import JobIcon from '../img/job_icon_1.png';
 import BgHover from '../img/bg_hover.png';
-
 import {makeStyles, useTheme} from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -18,23 +17,21 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     jobRow:{
-        paddingRight:'20px',
-        paddingLeft:'20px',
-        paddingBottom:'10px',
+        height:'88px',
+        paddingRight:'40px',
+        paddingLeft:'15px',
         display: 'flex', 
         alignItems: 'center', 
         justifyContent: 'center',
-        background:'white', 
         margin:'20px',
         fontFamily:'Jost',
         color:'#001921',
         fontSize: '16px',
-        lineHeight: "20px",  
         '&:hover': {
             cursor: "pointer",
             backgroundImage:`url(${BgHover})`, 
             backgroundRepeat  : 'no-repeat',
-            backgroundSize: 'cover'
+            backgroundSize: 'contain',
         }
     },
     tags:{
@@ -55,11 +52,11 @@ function Job() {
                     >
 
                         <img src={JobIcon} alt="job icon" />
-                        <div style={{marginRight:'auto', marginLeft:'30px'}}>
+                        <div style={{marginRight:'auto', marginLeft:'30px', lineHeight:'10px'}}>
                             <h2>{job.name}</h2>
-                            <div>
-                                <span className={classes.tags}>{job.tags}</span>
-                            </div>
+                         
+                                <p className={classes.tags}>{job.tags}</p>
+                           
                         </div>
                         <a  className={classes.coloredLink} href={job.link} target="_blank">Apply now</a>
 
