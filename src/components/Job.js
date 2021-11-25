@@ -7,17 +7,17 @@ function Job() {
             {
                 JobList.map((job, index) => {
                     return <div key={index}
-                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}
+                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background:'white', width:'43rem', padding:'1.25rem', fontFamily:'Jost' }}
                     >
 
                         <img src={JobIcon} alt="job icon" />
-                        <div className="job_description">
+                        <div style={{marginRight:'auto', paddingLeft:'2.5rem'}}>
                             <h2>{job.name}</h2>
-                            <div className="tags">
+                            <div style={{fontFamily:'Exo2'}}>
                                 <span>{job.tags}</span>
                             </div>
                         </div>
-                        <a href={job.link} target="_blank">Applay now</a>
+                        <a href={job.link} target="_blank">Apply now</a>
 
                     </div>
                 })
