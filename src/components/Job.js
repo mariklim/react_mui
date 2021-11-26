@@ -6,7 +6,7 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
 
     coloredLink: {
-
+        textDecoration:'none',
         fontSize: '20px',
         background: `-webkit-linear-gradient(left, #40C5E4 15.51%, #DE8E8E 77.84%)`,
         "-webkit-background-clip": "text",
@@ -68,14 +68,8 @@ function Job() {
                     </div>
                 })
             }
-
-
         </div>
     );
 }
 
 export default Job;
-{/* 
-                            <span  className={classes.tags}>{job.tags[0]}</span>
-                            <span  className={classes.tags}>{job.tags[1]}</span>
-                            <span  className={classes.tags}>{job.tags[2]}</span> */}

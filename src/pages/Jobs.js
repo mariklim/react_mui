@@ -12,7 +12,6 @@ const theme = createTheme({
         fontFamily:'Exo2', 
         fontSize:'24px',
         color:'#001921'
-     
       },
     },
   });
