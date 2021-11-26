@@ -1,17 +1,17 @@
 [
     {
         "name": "Junior front end dev",
-        "tags": "#webapp, #React, #Python Automation",
+        "tags": ["#webapp", "#React", "#Python", "#Automation"],
         "link": "https://www.linkedin.com/jobs/view/2801348656/?refId=R1Iy1elZX%2F8kJhTXXp9yAA%3D%3D"
     },
     {
         "name": "Senior front end dev",
-        "tags": "#webapp, #React, #Python Automation",
+        "tags": ["#webapp", "#React", "#Python", "#Automation"],
         "link": "https://www.linkedin.com/jobs/view/2801348656/?refId=R1Iy1elZX%2F8kJhTXXp9yAA%3D%3D"
     },
     {
         "name": "Middle front end dev",
-        "tags": "#webapp, #React, #Python Automation",
+        "tags": ["#webapp", "#React", "#Python", "#Automation"],
         "link": "https://www.linkedin.com/jobs/view/2801348656/?refId=R1Iy1elZX%2F8kJhTXXp9yAA%3D%3D"
     }
 ]
