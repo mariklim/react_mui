@@ -26,18 +26,21 @@ const useStyles = makeStyles((theme) => ({
         margin:'20px',
         fontFamily:'Jost',
         color:'#001921',
+        transition: 'transform .2s',
         fontSize: '16px',
         '&:hover': {
             cursor: "pointer",
             backgroundImage:`url(${BgHover})`, 
             backgroundRepeat  : 'no-repeat',
             backgroundSize: 'contain',
+            transform: 'scale(1.02)'
         }
     },
     tags:{
         fontSize: '14px',
         fontFamily:'Exo2',
-        color:'gray',
+        color:'#636465',
+        fontWeight: 'Extra-light'
     }
 }))
 
