@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/diveedi-test/static/js/main.b1422766.chunk.js",
+    "main.js.map": "/diveedi-test/static/js/main.b1422766.chunk.js.map",
+    "runtime-main.js": "/diveedi-test/static/js/runtime-main.ee06f395.js",
+    "runtime-main.js.map": "/diveedi-test/static/js/runtime-main.ee06f395.js.map",
+    "static/js/2.77e99b94.chunk.js": "/diveedi-test/static/js/2.77e99b94.chunk.js",
+    "static/js/2.77e99b94.chunk.js.map": "/diveedi-test/static/js/2.77e99b94.chunk.js.map",
+    "index.html": "/diveedi-test/index.html",
+    "static/js/2.77e99b94.chunk.js.LICENSE.txt": "/diveedi-test/static/js/2.77e99b94.chunk.js.LICENSE.txt",
+    "static/media/job_hero.31d306fb.png": "/diveedi-test/static/media/job_hero.31d306fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee06f395.js",
+    "static/js/2.77e99b94.chunk.js",
+    "static/js/main.b1422766.chunk.js"
+  ]
+}
